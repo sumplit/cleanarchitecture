@@ -16,7 +16,7 @@ class RemoteDataSource() {
 
             try {
                 val response = service.getListNewsService(
-                    apiKey = "87055553233f4db98aad6a760859d8b8",
+                    apiKey = "",
                     datePublishedAt = "2022-05-25",
                     publishedAt = "publishedAt"
                 )
