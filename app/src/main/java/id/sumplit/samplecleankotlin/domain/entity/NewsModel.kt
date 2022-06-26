@@ -1,4 +1,4 @@
-package id.sumplit.samplecleankotlin.domain.model
+package id.sumplit.samplecleankotlin.domain.entity
 
 data class NewsModel(
     val author: String?,

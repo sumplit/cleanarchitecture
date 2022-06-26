@@ -5,7 +5,7 @@ import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import id.sumplit.samplecleankotlin.data.Resource
-import id.sumplit.samplecleankotlin.domain.model.NewsModel
+import id.sumplit.samplecleankotlin.domain.entity.NewsModel
 import id.sumplit.samplecleankotlin.domain.usecase.AppUseCase
 import id.sumplit.samplecleankotlin.domain.usecase.AppUseCaseImpl
 import kotlinx.coroutines.Dispatchers
@@ -26,4 +26,5 @@ class NewsListViewModel(
             }
         }
     }
+
 }

@@ -1,13 +1,8 @@
-package id.sumplit.samplecleankotlin.data.remote.network
+package id.sumplit.samplecleankotlin.data.datasource.remote.network
 
-import android.content.Context
-import okhttp3.Cache
-import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
-import java.io.File
-import java.io.IOException
 import java.util.concurrent.TimeUnit
 
 class NetworkService {

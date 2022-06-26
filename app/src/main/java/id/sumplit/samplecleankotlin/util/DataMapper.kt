@@ -1,7 +1,7 @@
 package id.sumplit.samplecleankotlin.util
 
-import id.sumplit.samplecleankotlin.data.remote.response.ListNewsResponse
-import id.sumplit.samplecleankotlin.domain.model.NewsModel
+import id.sumplit.samplecleankotlin.data.model.response.ListNewsResponse
+import id.sumplit.samplecleankotlin.domain.entity.NewsModel
 
 object DataMapper {
 

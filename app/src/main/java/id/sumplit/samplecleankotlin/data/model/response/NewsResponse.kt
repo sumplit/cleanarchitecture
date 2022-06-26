@@ -1,4 +1,4 @@
-package id.sumplit.samplecleankotlin.data.remote.response
+package id.sumplit.samplecleankotlin.data.model.response
 
 import com.google.gson.annotations.SerializedName
 

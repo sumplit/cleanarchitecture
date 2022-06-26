@@ -43,6 +43,26 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/datasource/local/AppDatabase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/datasource/remote/RemoteDataSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/datasource/remote/network/NewsService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/local/AppDatabase.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/remote/RemoteDataSource.kt">
           <value>
             <set />
@@ -74,6 +94,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/remote/response/NewsResponse.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/repository/AppRepositoryImpl.kt">
           <value>
             <set />
           </value>
@@ -149,6 +174,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/res/xml/security_config.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../../freelance/sb-loyalty-apps-android/core/src/main/java/id/gits/sinarbajaelectric/core/data/local/room/AppDatabase.kt">
           <value>
             <set />
           </value>

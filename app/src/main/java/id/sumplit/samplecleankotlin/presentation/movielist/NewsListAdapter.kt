@@ -4,11 +4,11 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import id.sumplit.samplecleankotlin.databinding.ItemNewsBinding
-import id.sumplit.samplecleankotlin.domain.model.NewsModel
+import id.sumplit.samplecleankotlin.domain.entity.NewsModel
 
 class NewsListAdapter : RecyclerView.Adapter<NewsListAdapter.ItemNews>() {
 
-    val news = ArrayList<NewsModel>()
+    private val news = ArrayList<NewsModel>()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ItemNews {
         val viewBinding =

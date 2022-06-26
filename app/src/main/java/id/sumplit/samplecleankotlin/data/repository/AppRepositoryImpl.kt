@@ -1,8 +1,9 @@
-package id.sumplit.samplecleankotlin.data
+package id.sumplit.samplecleankotlin.data.repository
 
-import id.sumplit.samplecleankotlin.data.remote.RemoteDataSource
-import id.sumplit.samplecleankotlin.data.remote.network.ApiResponse
-import id.sumplit.samplecleankotlin.domain.model.NewsModel
+import id.sumplit.samplecleankotlin.data.Resource
+import id.sumplit.samplecleankotlin.data.datasource.remote.RemoteDataSource
+import id.sumplit.samplecleankotlin.data.datasource.remote.network.ApiResponse
+import id.sumplit.samplecleankotlin.domain.entity.NewsModel
 import id.sumplit.samplecleankotlin.domain.repository.AppRepository
 import id.sumplit.samplecleankotlin.util.DataMapper.mapDataListNews
 import kotlinx.coroutines.flow.Flow

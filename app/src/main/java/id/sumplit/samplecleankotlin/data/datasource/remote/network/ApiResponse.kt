@@ -1,4 +1,4 @@
-package id.sumplit.samplecleankotlin.data.remote.network
+package id.sumplit.samplecleankotlin.data.datasource.remote.network
 
 sealed class ApiResponse<out R> {
     data class Success<out T>(val data: T) : ApiResponse<T>()
