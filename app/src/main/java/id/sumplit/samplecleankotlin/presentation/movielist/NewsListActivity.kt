@@ -1,6 +1,7 @@
 package id.sumplit.samplecleankotlin.presentation.movielist
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -40,7 +41,7 @@ class NewsListActivity : AppCompatActivity() {
                         (mActivityNewsBinding.rvNews.adapter as NewsListAdapter).setDataChange(it.data?: emptyList())
                     }
                     is Resource.Error -> {
-
+                        Toast.makeText(this@NewsListActivity, "${it.exception?.message}", Toast.LENGTH_SHORT).show()
                     }
                 }
             }

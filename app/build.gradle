@@ -20,7 +20,7 @@ android {
     buildTypes {
         release {
 
-            buildConfigField "String", "API_KEY", '""'
+            buildConfigField "String", "API_KEY", '"87055553233f4db98aad6a760859d8b8"'
             buildConfigField "String", "BASE_URL", '"https://newsapi.org/v2/"'
 
             minifyEnabled false
@@ -28,7 +28,7 @@ android {
         }
 
         debug {
-            buildConfigField "String", "API_KEY", '""'
+            buildConfigField "String", "API_KEY", '"87055553233f4db98aad6a760859d8b8"'
             buildConfigField "String", "BASE_URL", '"https://newsapi.org/v2/"'
         }
     }

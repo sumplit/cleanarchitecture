@@ -38,6 +38,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/Resource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/Resources.kt">
           <value>
             <set />
@@ -49,6 +54,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/datasource/remote/RemoteDataSource.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/datasource/remote/network/ApiResponse.kt">
           <value>
             <set />
           </value>
