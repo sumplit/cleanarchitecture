@@ -1,5 +1,6 @@
 package id.sumplit.samplecleankotlin.data.datasource.remote
 
+import id.sumplit.samplecleankotlin.BuildConfig
 import id.sumplit.samplecleankotlin.data.datasource.remote.network.ApiResponse
 import id.sumplit.samplecleankotlin.data.datasource.remote.network.NetworkService
 import id.sumplit.samplecleankotlin.data.model.response.ListNewsResponse
@@ -16,7 +17,7 @@ class RemoteDataSource() {
 
             try {
                 val response = service.getListNewsService(
-                    apiKey = "87055553233f4db98aad6a760859d8b8",
+                    apiKey = BuildConfig.API_KEY,
                     country = "us",
                     category = "business"
                 )

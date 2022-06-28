@@ -19,8 +19,17 @@ android {
 
     buildTypes {
         release {
+
+            buildConfigField "String", "API_KEY", '""'
+            buildConfigField "String", "BASE_URL", '"https://newsapi.org/v2/"'
+
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            buildConfigField "String", "API_KEY", '""'
+            buildConfigField "String", "BASE_URL", '"https://newsapi.org/v2/"'
         }
     }
     compileOptions {
@@ -43,6 +52,8 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.2'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation "com.squareup.okhttp3:logging-interceptor:4.9.1"
+    implementation "com.squareup.okhttp3:okhttp:4.9.1"
     implementation 'com.google.code.gson:gson:2.8.9'
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.4.1"
 

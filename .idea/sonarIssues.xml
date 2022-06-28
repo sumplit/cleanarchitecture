@@ -53,6 +53,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/datasource/remote/network/NetworkService.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/id/sumplit/samplecleankotlin/data/datasource/remote/network/NewsService.kt">
           <value>
             <set />

@@ -15,8 +15,26 @@ class AppUseCaseImpl(
     private val repository: AppRepository = AppRepositoryImpl.getInstance()
 ) : AppUseCase {
 
-    override fun getListNews(): Flow<Resource<List<NewsModel>>> =
-        repository.getListNews()
+    override fun getListNews(): Flow<Resource<List<NewsModel>>> {
+        return flow {
+            emit(Resource.Loading())
+            emitAll(repository.getListNews().map {
+                when (it){
+                    is ApiResponse.Success -> {
+                        Resource.Success(
+                            DataMapper.mapDataListNews(
+                                it.data
+                            )
+                        )
+                    }
+                    is ApiResponse.Error -> {
+                        Resource.Error(it.errorMessage)
+                    }
+                }
+            })
+
+        }
+    }
 
     companion object {
         private val INSTANCE = AppUseCaseImpl()

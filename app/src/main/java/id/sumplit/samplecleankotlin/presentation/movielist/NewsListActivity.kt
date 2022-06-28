@@ -30,7 +30,6 @@ class NewsListActivity : AppCompatActivity() {
     private fun setViewModel() {
         val viewModel = ViewModelProvider(this)[NewsListViewModel::class.java]
         viewModel.apply {
-            loadListNews()
 
             listNews.observe(this@NewsListActivity) {
                 when (it) {
@@ -45,6 +44,9 @@ class NewsListActivity : AppCompatActivity() {
                     }
                 }
             }
+
+            loadListNews()
+
         }
     }
 
